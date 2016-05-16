@@ -1,0 +1,77 @@
+* {
+  /**font-family: 'Jura', sans-serif;**/
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.alphabet {
+  position: absolute;
+  left: 840px;
+  background-color: #ffffcc;
+  padding-bottom: 150px;
+}
+
+.info {
+  position: fixed;
+  padding-top: 100px;
+  padding-left: 160px;
+  height: 100%;
+  width: 650px;
+  background: linear-gradient(to left, #b3ffff, #ffffff);
+  animation: gradient 2s ease infinite;
+}
+
+@keyframes gradient { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.heading {
+  transform: scale(0.5) rotate(0deg);
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+
+}
+
+.header .letter {
+  margin: 60px;
+}
+
+.letter.small {
+  margin-right: 20px;
+}
+.text {
+  display: block;
+  width: 450px;
+}
+
+h1 {
+    font-size: 5em;
+    font-weight: lighter;
+    color: #333333;
+}
+
+p {
+  margin-top: 0px; margin-bottom: 0px;
+}
+
+li {
+  margin-top: 15px; margin-bottom:15px;
+}
+
+.how {
+  margin-top: 30px;
+}
+
+.list {
+  position: absolute;
+  left: 100px;
+}
